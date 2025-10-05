@@ -1,0 +1,38 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.border {
+	border: 4px solid #3f3f3f;
+	border-radius: 12px;
+	background-color: #c6c6c6;
+}
+
+.shadow {
+	border-radius: 10px;
+	border-top: 4px solid #ffffff;
+	padding: 0 40px 30px 40px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 200;
+	color: #3f3f3f;
+}
+
+.container {
+	width: calc(min(80vw, 800px) - 40px);
+	height: min(80vh, 400px);
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	box-shadow:
+		-5px -5px 4px 0px rgba(0, 0, 0, 0.5) inset,
+		5px 5px 5px 0px rgba(0, 0, 0, 0.5) inset;
+	background: url(assets/images/Background.jpg) #d3d3d3 50% / cover;
+	overflow: hidden;
+}
